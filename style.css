@@ -1,0 +1,76 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #5145BA;
+}
+.box
+{
+    position: absolute;
+    width: 500px;
+    height: 448px;
+    background: #fff;
+    border-radius: 10px;
+}
+.box header
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 18px;
+    border-bottom: 1px solid #33333334;
+}
+.box header h1
+{
+    font-size: 27px;
+}
+.box .inputText
+{
+    position: relative;
+    padding: 10px;
+}
+.box .inputText textarea
+{
+    position: relative;
+    width: 100%;
+    height: 280px;
+    padding: 10px;
+    border-radius: 5px;
+    resize: none;
+}
+.box .inputText textarea:focus
+{
+    outline: 1px solid #5145BA;
+}
+.box .buttons
+{
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.box .buttons button
+{
+    position: relative;
+    width: 363%;
+    padding: 15px 0;
+    background: #5145BA;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+}
+.box .buttons button:hover
+{
+    background: #6052db;
+}
